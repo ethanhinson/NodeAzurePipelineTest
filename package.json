@@ -1,0 +1,23 @@
+{
+  "name": "revmax-transparent-worker",
+  "version": "1.0.0",
+  "description": "Provides a cache of transparent rate data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PropertyBrands/iiq-revmax-transparent-worker.git"
+  },
+  "author": "developers@inhabitiq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PropertyBrands/iiq-revmax-transparent-worker/issues"
+  },
+  "homepage": "https://github.com/PropertyBrands/iiq-revmax-transparent-worker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
