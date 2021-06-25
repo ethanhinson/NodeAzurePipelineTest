@@ -8,4 +8,4 @@ RUN npm ci --only=production
 COPY . .
 
 EXPOSE 80
-CMD [ "npm", "start" ]
+CMD [ "node", "/usr/src/app/src/index.js" ]
